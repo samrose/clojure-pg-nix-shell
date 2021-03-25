@@ -8,6 +8,7 @@ let
         set title
         set nu
         let g:rainbow_active = 1
+        autocmd BufWritePre * :%s/\s\+$//e
       '';
       packages.package.start = with vimPlugins; [
         fzf

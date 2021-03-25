@@ -2,3 +2,4 @@ postgres
 postgres_data
 target
 allegheny-foodoutlets
+env.sh
